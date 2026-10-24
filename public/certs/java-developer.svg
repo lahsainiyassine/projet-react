@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="javaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c" />
+      <stop offset="50%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <filter id="shadowJava" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#ea580c" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="40" fill="#0f172a"/>
+  <circle cx="200" cy="200" r="160" fill="url(#javaGrad)" opacity="0.15"/>
+  <polygon points="200,40 340,120 340,280 200,360 60,280 60,120" fill="url(#javaGrad)" filter="url(#shadowJava)"/>
+  <polygon points="200,55 325,127 325,273 200,345 75,273 75,127" fill="#0f172a"/>
+  <!-- Java Cup / Steam Icon -->
+  <path d="M190 120 C180 135 205 145 195 160" fill="none" stroke="#f97316" stroke-width="5" stroke-linecap="round"/>
+  <path d="M210 115 C200 130 225 140 215 160" fill="none" stroke="#fbbf24" stroke-width="5" stroke-linecap="round"/>
+  <!-- Cup body -->
+  <path d="M150 170 L155 220 C156 238 174 246 200 246 C226 246 244 238 245 220 L250 170 Z" fill="none" stroke="#ffffff" stroke-width="8" stroke-linejoin="round"/>
+  <!-- Cup Handle -->
+  <path d="M248 180 C265 180 272 195 272 205 C272 218 260 226 245 226" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+  <!-- Base saucer -->
+  <path d="M140 252 C170 262 230 262 260 252" fill="none" stroke="#f59e0b" stroke-width="6" stroke-linecap="round"/>
+  <!-- Text -->
+  <text x="200" y="295" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="20" fill="#ffffff" text-anchor="middle" letter-spacing="2">JAVA SE / OOP</text>
+  <text x="200" y="318" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="600" font-size="12" fill="#94a3b8" text-anchor="middle" letter-spacing="3">SOFTWARE ENGINEER</text>
+</svg>

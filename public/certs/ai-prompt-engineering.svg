@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#4f46e5" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="40" fill="#0f172a"/>
+  <circle cx="200" cy="200" r="160" fill="url(#bgGrad)" filter="url(#shadow)" opacity="0.15"/>
+  <polygon points="200,40 340,120 340,280 200,360 60,280 60,120" fill="url(#bgGrad)" filter="url(#shadow)"/>
+  <polygon points="200,55 325,127 325,273 200,345 75,273 75,127" fill="#0f172a"/>
+  <!-- Sparkles & Brain Icon -->
+  <path d="M200 115 L206 135 L226 141 L206 147 L200 167 L194 147 L174 141 L194 135 Z" fill="#38bdf8"/>
+  <path d="M160 170 C145 170 135 182 135 197 C135 215 150 230 170 230 C175 230 180 228 185 225 L185 250 C185 256 190 260 196 260 L204 260 C210 260 215 256 215 250 L215 225 C220 228 225 230 230 230 C250 230 265 215 265 197 C265 182 255 170 240 170 C235 170 230 172 225 175 C220 165 210 160 200 160 C190 160 180 165 175 175 C170 172 165 170 160 170 Z" fill="none" stroke="#a855f7" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="175" cy="195" r="5" fill="#38bdf8"/>
+  <circle cx="225" cy="195" r="5" fill="#38bdf8"/>
+  <circle cx="200" cy="215" r="6" fill="#ec4899"/>
+  <!-- Text -->
+  <text x="200" y="295" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="20" fill="#ffffff" text-anchor="middle" letter-spacing="2">PROMPT &amp; IA</text>
+  <text x="200" y="318" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="600" font-size="12" fill="#94a3b8" text-anchor="middle" letter-spacing="3">CERTIFIED SPECIALIST</text>
+</svg>
