@@ -41,8 +41,9 @@ projet-portfolio/
 ├── tailwind.config.js
 ├── tsconfig.json                  # Configuration TypeScript avec alias @/*
 └── vercel.json                    # Configuration de réécriture SPA pour Vercel
-<img width="947" height="907" alt="image" src="https://github.com/user-attachments/assets/23125ae2-4792-440a-bff5-343ffb1a3c02" />
-<img width="978" height="907" alt="image" src="https://github.com/user-attachments/assets/635521f8-4f32-40dd-a2f2-a8338195134d" />
+
+
+
 
 
 
